@@ -1,5 +1,6 @@
 .container {
   padding: 50px 0;
+  flex-wrap: wrap;
   text-align: center;
   width: 100%;
   display: flex;
@@ -7,14 +8,14 @@
   justify-content: space-evenly;
   gap: 30px;
   background-color: rgb(238, 252, 255);
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .heading {
   margin: 0 auto;
   max-width: 500px;
   color: #000;
-  font-size: 3.1rem;
+  font-size: 3rem;
   line-height: 4.1rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -49,4 +50,26 @@
   letter-spacing: 1px;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+
+  .heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .container {
+    padding: 50px 20px;
+    width: auto;
+  }
+
+  .left button {
+    font-size: 1.2rem;
+  }
+
+  .right img {
+    width: 250px;
+  }
+
 }

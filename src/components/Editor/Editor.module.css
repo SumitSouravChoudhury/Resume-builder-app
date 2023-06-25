@@ -1,7 +1,7 @@
 .container {
-  min-width: 550px;
-  min-height: 450px;
-  max-width: 750px;
+  min-width: 870px;
+  min-height: 550px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 30px;

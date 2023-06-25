@@ -70,3 +70,31 @@
   gap: 30px;
   width: 100%;
 }
+
+@media screen and (max-width: 400px){
+  
+  .heading {
+    margin: 2rem;
+    margin-bottom: 0 !important;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .colors {
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  .colors .color {
+    height: 20px;
+    width: 20px;
+  }
+
+  .container {
+    padding: 8px;
+  }
+
+  .toolbar button {
+    padding: 8px;
+  }
+}
